@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node index.js"
+    "build": "better-npm-run build"
+  },
+  "betterScripts": {
+    "build": "echo \"$NODE_ENV\" && node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/yuth/test-pkg/issues"
   },
-  "homepage": "https://github.com/yuth/test-pkg#readme"
+  "homepage": "https://github.com/yuth/test-pkg#readme",
+  "dependencies": {
+    "better-npm-run": "^0.1.1"
+  }
 }
