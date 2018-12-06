@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "better-npm-run build"
+    "build": "echo \"running build\"",
+    "build:dev": "echo \"running build:dev\"",
+    "build:production": "echo \"running build:production\""
   },
   "betterScripts": {
     "build": "echo \"$NODE_ENV\" && node index.js"
