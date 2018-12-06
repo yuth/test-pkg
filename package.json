@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "echo \"running build\"",
-    "build:dev": "echo \"running build:dev\"",
-    "build:production": "echo \"running build:production\""
+    "build:dev": "echo \"running script build:dev\"",
+    "build:production": "echo \"running script build:production\""
   },
   "betterScripts": {
     "build": "echo \"$NODE_ENV\" && node index.js"
